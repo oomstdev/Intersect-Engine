@@ -180,6 +180,8 @@ namespace Intersect
 
             public Color MagicDamage = new Color(255, 255, 0, 255);
 
+            public Color FishDamage = new Color(255, 255, 0, 255);
+
             public Color Missed = new Color(255, 255, 255, 255);
 
             public Color NoAmmo = Color.Red;

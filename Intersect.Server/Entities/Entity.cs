@@ -1752,6 +1752,12 @@ namespace Intersect.Server.Entities
                             );
 
                             break;
+                        case DamageType.Fish:
+                            PacketSender.SendActionMsg(
+                                enemy, Strings.Combat.removesymbol + (int)baseDamage, CustomColors.Combat.FishDamage
+                            );
+
+                            break;
                     }
 
                     foreach (var status in statuses)
